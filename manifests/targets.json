@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "project": "Pocket Monsters Shield Decompilation",
+  "platform": "Nintendo Switch",
+  "targets": [
+    {
+      "id": "shield-base",
+      "kind": "application",
+      "title_id": "01008DB008C2C000",
+      "version": "initial retail application",
+      "status": "reference_only",
+      "local_hashes": null,
+      "notes": "Title ID is recorded from an external title database. Promote to verified only after matching a locally inventoried target."
+    },
+    {
+      "id": "shield-update-1.3.2",
+      "kind": "patch",
+      "title_id": "01008DB008C2C800",
+      "version": "1.3.2",
+      "release_date_kr": "2021-05-12",
+      "status": "reference_only",
+      "local_hashes": null,
+      "notes": "Nintendo Korea documents Ver. 1.3.2 as the final published Sword/Shield update. Patch Title ID is recorded from an external title database."
+    },
+    {
+      "id": "isle-of-armor",
+      "kind": "add_on_content",
+      "title_id": "01008DB008C2D001",
+      "version": null,
+      "status": "reference_only",
+      "local_hashes": null,
+      "notes": "External title-database identifier for Pokémon Shield: The Isle of Armor entitlement/content record."
+    },
+    {
+      "id": "crown-tundra",
+      "kind": "add_on_content",
+      "title_id": "01008DB008C2D002",
+      "version": null,
+      "status": "reference_only",
+      "local_hashes": null,
+      "notes": "External title-database identifier for Pokémon Shield: The Crown Tundra entitlement/content record."
+    }
+  ],
+  "references": [
+    {
+      "type": "official_update_history_kr",
+      "url": "https://www.nintendo.com/kr/switch/sword_shield/updateData.html"
+    },
+    {
+      "type": "external_title_database_base",
+      "url": "https://tinfoil.io/Title/01008DB008C2C000"
+    },
+    {
+      "type": "external_title_database_isle_of_armor",
+      "url": "https://tinfoil.io/Title/01008DB008C2D001"
+    },
+    {
+      "type": "external_title_database_crown_tundra",
+      "url": "https://tinfoil.io/Title/01008DB008C2D002"
+    }
+  ]
+}
